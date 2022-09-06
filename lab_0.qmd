@@ -1,12 +1,12 @@
 ---
-title: "Problem Solving Mini-Lab"
-author: "Lindsay Poirier"
+title: "Lab 0. Problem Solving Mini-Lab"
+author: "Jared Joseph & Lindsay Poirier"
 format: html
 editor: source
 ---
 
 :::{.callout-note}
-This lab is a copy of SDS professor Dr. Lindsay Poirier's <a href="https://sds-192-intro-fall22.github.io/sds-192-public-website-quarto/problem-solving.html">problem solving lab</a>.
+This lab is based on SDS professor Dr. Lindsay Poirier's <a href="https://sds-192-intro-fall22.github.io/sds-192-public-website-quarto/problem-solving.html">problem solving lab</a>.
 :::
 
 ## Introduction
@@ -179,3 +179,17 @@ I encourage you to search the web when you get errors in your code. Others have 
 
 Add a comment to the code chunk above, citing [this Stack Overflow](https://stackoverflow.com/questions/54017285/difference-between-sort-rank-and-order) post. Be sure to cite the post properly. You can read through the post to double check your answers.
 :::
+
+# Turning in this Lab
+
+You did it! Now to turn it in. We will be using github classrooms for assignments in this class. TO "turn in" this assignment, all you need to do is save this document, commit it with git, and push it back to the Github repo you pulled it from.
+
+1. First make sure you've saved this file. 
+2. In the bar above this editor, hit the **Render** button. Check out the output to see what you've made!
+3. In the upper right pane, go to the **Git** tab.
+4. Check the box next to this document (lab_0.qmd).
+5. Press the **Commit** button.
+6. Enter a commit message, and press **Commit**.
+7. Press the **Push** button to send it back to Github.
+
+All done! You can repeat this process if you want to make any changes before the due date. I
