@@ -192,4 +192,4 @@ You did it! Now to turn it in. We will be using github classrooms for assignment
 6. Enter a commit message, and press **Commit**.
 7. Press the **Push** button to send it back to Github.
 
-All done! You can repeat this process if you want to make any changes before the due date. I
+All done! You can repeat this process if you want to make any changes before the due date.
