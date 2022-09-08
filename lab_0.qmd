@@ -22,11 +22,13 @@ This lab will introduce you to resources and techniques for problem solving in `
 
 ## Interpreting Error Messages
 
-Throughout this week, we have taken a look at different error messages that `R` presents when it can't evaluate our code. Today, we will consider these in more detail. First, it's important to make some distinctions between the kinds of messages that `R` presents to us when attempting to run code:
+`R` has several ways to communicate with us, the most common of which being error messages. Error messages appear when something doesn't work as anticipated. It is tempting to see them as denoting failure, but that is not the case. Error messages are a way for R to alert us to potential problems; the real danger comes where R *does not* tell us when something goes wrong.
+
+First, it's important to make some distinctions between the kinds of messages that `R` presents to us when attempting to run code:
 
 Errors
 
-:   Terminate a process that we are trying to run in R. They arise when it is not possible for `R` to continue evaluating a function.
+:   Terminate a process that we are trying to run in `R`. They arise when it is not possible for `R` to continue evaluating a function. Like when we try to add letters together.
 
 Warnings
 
@@ -105,7 +107,7 @@ When we do get errors in our code and need to ask for help in interpreting them,
 
 1.  Reference line numbers. Notice the left side of this document has a series of numbers listed vertically next to each line? These are known as line numbers. Oftentimes, if you are having an issue with your code and ask me to review it, I will say something like: "Check out line 53." By this I mean that you should scroll the document to the 53rd line. You can similarly tell me or your peers which line of your code you are struggling with.
 
-2.  Compose good reproducible examples. A good reproducible example includes all of the lines of code that we need to reproduce an output on our own machines. This means that if you create a vector in a previous code snippet and then supply it as an argument in another code snippet, you are going to want to make sure that both of these lines of code appear in your reproducible example. Further, if the functions that you are using are from certain packages, you will want to make sure the `library()` call to load that package is in your reproducible example.
+2.  Compose good reproducible examples. A good reproducible example includes all of the lines of code that we need to reproduce an output on our own machines. This means that if you create a vector in a previous code snippet and then supply it as an argument in another code snippet, you are going to want to make sure that both of these lines of code appear in your reproducible example.
 
 3.  Use the code and code block buttons in Slack to share example code. First, when we copy and paste code from RStudio into programs like Slack and email, we can't see the output. Second, certain characters like quotation marks and apostrophes are treated differently across these programs. For example, run the code chunk below and check out the output in your Console. The first line of code I typed directly into RStudio. The second I copied over from Slack.
 
@@ -159,13 +161,13 @@ Navigate to [this cheatsheet](https://iqss.github.io/dss-workshops/R/Rintro/base
 :::
 
 ```{r}
-#Create a vector of temperatures
+# Create a vector of temperatures
 temps_to_factor <- c(68, 70, 78, 75, 69, 80, 66, 66, 79)
 
 # Write code below to rank the days with random ties
 
 
-# Replace this line with a comment to yourself describing how this function is different than sorting the data. 
+# Replace this line with a comment to yourself (starting a line in a code block or script file makes it a comment) describing how this function is different than sorting the data. 
 ```
 
 # Searching the Web
