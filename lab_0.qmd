@@ -13,6 +13,9 @@ This lab is based on SDS professor Dr. Lindsay Poirier's <a href="https://sds-19
 
 This lab will introduce you to resources and techniques for problem solving in `R`. You should reference this lab often throughout the semester for reminders on best practices for addressing errors and getting help.
 
+Click here to access the lab on Github Classroom:
+[Github Classroom Assignment for Lab 0: Problem Solving Mini-Lab](https://moodle.smith.edu/mod/url/view.php?id=941581)
+
 ### Learning Goals
 
 -   Interpret error messages in `R`
