@@ -1,7 +1,9 @@
 ---
 title: "Lab 0. Problem Solving Mini-Lab"
 author: "Jared Joseph & Lindsay Poirier"
-format: html
+format:
+  html:
+    self-contained: true
 editor: source
 ---
 
